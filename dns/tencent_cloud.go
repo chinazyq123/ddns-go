@@ -11,7 +11,7 @@ import (
 )
 
 const (
-	tencentCloudEndPoint = "https://dnspod.tencentcloudapi.com"
+	tencentCloudEndPoint = "https://dnspod.ipv6.tencentcloudapi.com"
 	tencentCloudVersion  = "2021-03-23"
 )
 
