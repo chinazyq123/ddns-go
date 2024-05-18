@@ -25,7 +25,7 @@ func tencentCloudHmacsha256(s, key string) string {
 func TencentCloudSigner(secretId string, secretKey string, r *http.Request, action string, payload string) {
 	algorithm := "TC3-HMAC-SHA256"
 	service := "dnspod"
-	host := WriteString(service, ".tencentcloudapi.com")
+	host := WriteString(service, ".ipv6.tencentcloudapi.com")
 	timestamp := time.Now().Unix()
 	timestampStr := strconv.FormatInt(timestamp, 10)
 
